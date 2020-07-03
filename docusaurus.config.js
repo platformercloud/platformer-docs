@@ -1,7 +1,7 @@
 module.exports = {
     title: 'Platformer Cloud Documentation',
     tagline: 'Platformer Docs',
-    url: 'https://platformer.com',
+    url: 'https://docs.dev.x.platformer.com',
     baseUrl: '/',
     favicon: 'img/favicon.ico',
     organizationName: 'platformer-com', // Usually your GitHub org/user name.
@@ -92,7 +92,7 @@ module.exports = {
             {
                 docs: {
                     // It is recommended to set document id as docs home page (`docs/` path).
-                    homePageId: 'doc1',
+                    homePageId: 'styleguide',
                     sidebarPath: require.resolve('./sidebars.js'),
                     editUrl:
                         'https://github.com/platformer-com/platformer-docs',
