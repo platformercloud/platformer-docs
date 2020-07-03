@@ -8,7 +8,7 @@ module.exports = {
     projectName: 'platformer-docs', // Usually your repo name.
     themeConfig: {
         defaultDarkMode: true,
-        image: 'opengraph/platformer-documenation.jpg',
+        image: 'opengraph/platformer-documentation.jpg',
         navbar: {
             logo: {
                 alt: 'Platformer Cloud',
