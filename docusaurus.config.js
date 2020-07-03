@@ -7,6 +7,8 @@ module.exports = {
     organizationName: 'platformer-com', // Usually your GitHub org/user name.
     projectName: 'platformer-docs', // Usually your repo name.
     themeConfig: {
+        defaultDarkMode: true,
+        image: 'opengraph/platformer-documenation.jpg',
         navbar: {
             title: '',
             logo: {
