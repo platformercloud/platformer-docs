@@ -4,5 +4,5 @@ title: Introduction
 sidebar_label: Introduction
 ---
 
-# Getting Started with Platformer Cloud
+## Getting Started with Platformer Cloud
 
