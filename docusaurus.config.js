@@ -10,14 +10,18 @@ module.exports = {
         defaultDarkMode: true,
         image: 'opengraph/platformer-documenation.jpg',
         navbar: {
-            title: '',
             logo: {
                 alt: 'Platformer Cloud',
                 src: 'img/platformer-logo.png',
                 srcDark: 'img/platformer-logo-dark.png',
             },
             links: [
-                { to: 'blog', label: 'Getting Started', position: 'left' },
+                {
+                    to: 'docs/getting-started/01-introduction',
+                    activeBasePath: 'docs/getting-started/',
+                    label: 'Getting Started',
+                    position: 'left',
+                },
                 {
                     to: 'docs/',
                     activeBasePath: 'docs',
@@ -90,15 +94,8 @@ module.exports = {
                     // It is recommended to set document id as docs home page (`docs/` path).
                     homePageId: 'doc1',
                     sidebarPath: require.resolve('./sidebars.js'),
-                    // Please change this to your repo.
                     editUrl:
-                        'https://github.com/facebook/docusaurus/edit/master/website/',
-                },
-                blog: {
-                    showReadingTime: true,
-                    // Please change this to your repo.
-                    editUrl:
-                        'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+                        'https://github.com/platformer-com/platformer-docs',
                 },
                 theme: {
                     customCss: require.resolve('./src/css/custom.scss'),

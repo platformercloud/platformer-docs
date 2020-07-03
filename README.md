@@ -3,6 +3,6 @@ Platformer Cloud Documentation
 
 ## Development
 
-`npm install`
-`npm start`
+> `npm install`
+> `npm start`
 
