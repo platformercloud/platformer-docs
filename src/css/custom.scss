@@ -59,10 +59,14 @@ html[data-theme="dark"] {
   --ifm-color-content-secondary: rgba(255, 255, 255, 1);
   --ifm-link-color: #3c56eb;
   --ifm-color-primary: #3c56eb;
+  .hero {
+    background-color: #091452;
+  }
 }
 .button.button--secondary.button--outline:not(.button--active):not(:hover) {
   color: white;
 }
+
 @media only screen and (max-width: 1400px) {
   html {
     font-size: 15px;
