@@ -8,6 +8,7 @@
 @import "./fonts";
 
 /* You can override the default Infima variables here. */
+
 :root {
   --ifm-color-primary: #0277bd;
   --ifm-color-primary-dark: #006abc;
@@ -37,4 +38,43 @@ h4,
 h5,
 h6 {
   font-family: var(--ifm-heading-font-family);
+}
+
+html[data-theme="dark"] {
+  --ifm-color-emphasis-0: #e6e6e6;
+  --ifm-color-emphasis-100: #e6e6e6;
+  --ifm-color-emphasis-200: #e6e6e6;
+  --ifm-color-emphasis-300: #e6e6e6;
+  --ifm-color-emphasis-400: #e6e6e6;
+  --ifm-color-emphasis-500: #e6e6e6;
+  --ifm-color-emphasis-600: #e6e6e6;
+  --ifm-color-emphasis-700: #e6e6e6;
+  --ifm-color-emphasis-800: #e6e6e6;
+  --ifm-color-emphasis-900: #e6e6e6;
+  --ifm-color-emphasis-1000: var(--ifm-color-gray-0);
+  --ifm-background-color: #1f2225;
+  --ifm-background-surface-color: #242526;
+  --ifm-hover-overlay: rgba(163, 163, 163, 0.05);
+  --ifm-navbar-background-color: #021b35;
+  --ifm-color-content-secondary: rgba(255, 255, 255, 1);
+  --ifm-link-color: #3c56eb;
+  --ifm-color-primary: #3c56eb;
+  .hero {
+    background-color: #091452;
+  }
+}
+.button.button--secondary.button--outline:not(.button--active):not(:hover) {
+  color: white;
+}
+
+@media only screen and (max-width: 1400px) {
+  html {
+    font-size: 15px;
+  }
+  .docTitle_node_modules-\@docusaurus-theme-classic-src-theme-DocItem- {
+    font-size: 2.6rem;
+  }
+  h1 {
+    font-size: 2.4rem;
+  }
 }
