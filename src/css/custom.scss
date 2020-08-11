@@ -63,6 +63,9 @@ html[data-theme="dark"] {
   --ifm-color-content-secondary: rgba(255, 255, 255, 1);
   --ifm-link-color: $primary;
   --ifm-color-primary: $primary;
+  body {
+    background-color: darken($primary, 15%);
+  }
   .navbar {
     background-color: darken($dark-blue, 2%);
   }
@@ -74,6 +77,37 @@ html[data-theme="dark"] {
   }
   .footer--dark {
     background-color: $dark-blue;
+  }
+  .navbar__item {
+    transition: all 0.3s;
+    &:hover {
+      color: $secondary;
+    }
+  }
+  .button {
+    &.button--outline {
+      &.button--secondary {
+        &:hover {
+          background-color: $secondary;
+          border-color: $secondary;
+          color: $white;
+        }
+      }
+    }
+  }
+  a,
+  .table-of-contents__link,
+  .pagination-nav__link {
+    transition: all 0.3s;
+    .pagination-nav__sublabel {
+      transition: all 0.3s;
+    }
+    &:hover {
+      .pagination-nav__sublabel {
+        color: lighten($secondary, 1%);
+      }
+      color: lighten($secondary, 1%);
+    }
   }
 }
 .button.button--secondary.button--outline:not(.button--active):not(:hover) {
