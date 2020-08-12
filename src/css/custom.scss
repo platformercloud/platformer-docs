@@ -22,7 +22,6 @@
   --ifm-heading-font-weight: bold;
   --ifm-font-family-base: "Inter", "Roboto", sans-serif;
   --ifm-alert-color: black;
-  --ifm-table-stripe-background: #1f1f1f;
 }
 
 .docusaurus-highlight-code-line {
@@ -69,7 +68,8 @@ html[data-theme="dark"] {
   --ifm-navbar-link-hover-color: rgb(255, 255, 255);
   --ifm-link-color: #3cb1ff;
   --ifm-footer-background-color: rgb(36, 36, 36);
-  
+  --ifm-table-stripe-background: #1f1f1f;
+
   .navbar__item {
     transition: all 0.2s;
     &:hover {
