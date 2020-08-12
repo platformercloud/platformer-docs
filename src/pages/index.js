@@ -4,7 +4,7 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
-import styles from './styles.module.scss';
+import styles from './index.module.scss';
 
 const features = [
     {
@@ -69,16 +69,14 @@ function Home() {
             description='Platformer Cloud Official Documentation'>
             <header className={clsx('hero hero--primary', styles.heroBanner)}>
                 <div className='container'>
-                    <h1 className='hero__title'>Platformer Documentation</h1>
-                    <h1>
+                    <h1 className={clsx('hero__title', styles.title)}>
+                        Platformer Documentation
+                        <br/>
+                    </h1>
+                    <h1 className={styles.subtitle_1}>
                         The Cloud Native Developer Platform built for the
                         Enterprise.
                     </h1>
-                    <p className='hero__subtitle'>
-                        Deploying and Managing Applications on Kubernetes on
-                        Cloud, Hybrid or On-Premise Infrastructure has never
-                        been easier.
-                    </p>
                     <div className={styles.buttons}>
                         <Link
                             className={clsx(
