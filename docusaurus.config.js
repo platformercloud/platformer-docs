@@ -36,7 +36,6 @@ module.exports = {
             ],
         },
         footer: {
-            style: 'dark',
             // links: footerLinks,
             copyright: `Copyright © ${new Date().getFullYear()} Platformer Cloud Pty Ltd`,
         },
