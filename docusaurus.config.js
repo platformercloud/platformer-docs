@@ -29,6 +29,12 @@ module.exports = {
                     position: 'left',
                 },
                 {
+                    to: 'docs/pxe/01-getting-started',
+                    activeBasePath: 'pxe',
+                    label: 'PXE Docs',
+                    position: 'left',
+                },
+                {
                     href: 'https://github.com/facebook/docusaurus',
                     label: 'GitHub',
                     position: 'right',
