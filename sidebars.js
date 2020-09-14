@@ -12,5 +12,9 @@ module.exports = {
             'pxe/04-applications',
             'pxe/05-advanced',
         ],
-    },
+        'ProjectX Documentation': [
+            'projectx/01-getting-started',
+            'projectx/02-container-registry',
+        ],
+    }
 };
