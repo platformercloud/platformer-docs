@@ -31,7 +31,7 @@ module.exports = {
                 {
                     to: 'docs/pxe/01-getting-started',
                     activeBasePath: 'pxe',
-                    label: 'PXE Docs',
+                    label: 'Product Docs',
                     position: 'left',
                 },
                 {
