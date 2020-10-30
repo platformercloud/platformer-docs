@@ -1,6 +1,5 @@
 ---
-id: 01-core-concepts
+id: introduction
 title: Platformer and Kubernetes - Core concepts
 sidebar_label: Core concepts
 ---
-

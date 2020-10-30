@@ -7,7 +7,10 @@ module.exports = {
     organizationName: 'platformer-com', // Usually your GitHub org/user name.
     projectName: 'platformer-docs', // Usually your repo name.
     themeConfig: {
-        defaultDarkMode: true,
+        defaultMode: 'light',
+        // Hides the switch in the navbar
+        // Useful if you want to support a single color mode
+        disableSwitch: false,
         image: 'opengraph/platformer-documentation.jpg',
         navbar: {
             logo: {
@@ -16,15 +19,15 @@ module.exports = {
                 srcDark: 'img/platformer-logo-dark.png',
             },
             links: [
-                {
-                    to: 'docs/getting-started/01-introduction',
-                    activeBasePath: 'docs/getting-started/',
-                    label: 'Getting Started',
-                    position: 'left',
-                },
+                // {
+                //     to: 'docs/getting-started/01-introduction',
+                //     activeBasePath: 'docs/getting-started/',
+                //     label: 'Getting Started',
+                //     position: 'left',
+                // },
                 {
                     to: 'docs/',
-                    activeBasePath: 'docs',
+                    activeBasePath: '/',
                     label: 'Documentation',
                     position: 'left',
                 },
@@ -45,8 +48,8 @@ module.exports = {
             '@docusaurus/preset-classic',
             {
                 docs: {
-                    // It is recommended to set document id as docs home page (`docs/` path).
-                    homePageId: 'styleguide',
+                    routeBasePath: '/', // docs-only mode
+                    homePageId: 'getting-started/01-introduction',
                     sidebarPath: require.resolve('./sidebars.js'),
                     editUrl:
                         'https://github.com/platformer-com/platformer-docs',
