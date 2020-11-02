@@ -4,13 +4,13 @@ module.exports = {
     url: 'https://docs.dev.x.platformer.com',
     baseUrl: '/',
     favicon: 'img/favicon.ico',
-    organizationName: 'platformer-com', // Usually your GitHub org/user name.
-    projectName: 'platformer-docs', // Usually your repo name.
+    organizationName: 'platformer-com',
+    projectName: 'platformer-docs',
     themeConfig: {
         defaultMode: 'light',
-        // Hides the switch in the navbar
-        // Useful if you want to support a single color mode
-        disableSwitch: false,
+        colorMode: {
+            disableSwitch: true,
+        },
         image: 'opengraph/platformer-documentation.jpg',
         navbar: {
             logo: {
@@ -18,22 +18,21 @@ module.exports = {
                 src: 'img/platformer-logo.png',
                 srcDark: 'img/platformer-logo-dark.png',
             },
-            links: [
-                // {
-                //     to: 'docs/getting-started/01-introduction',
-                //     activeBasePath: 'docs/getting-started/',
-                //     label: 'Getting Started',
-                //     position: 'left',
-                // },
+            items: [
                 {
                     to: '/',
                     activeBasePath: '/',
                     label: 'Documentation',
                     position: 'left',
                 },
+                // {
+                //     href: 'https://github.com/platformercloud/platformer-docs',
+                //     label: 'GitHub',
+                //     position: 'right',
+                // },
                 {
-                    href: 'https://github.com/facebook/docusaurus',
-                    label: 'GitHub',
+                    href: 'https://platformer.com',
+                    label: 'platformer.com',
                     position: 'right',
                 },
             ],
@@ -49,10 +48,10 @@ module.exports = {
             {
                 docs: {
                     routeBasePath: '/', // docs-only mode
-                    homePageId: '01-introduction/01-introduction-platformer-console',
+                    // homePageId: '01-introduction/01-introduction-platformer-console',
                     sidebarPath: require.resolve('./sidebars.js'),
                     editUrl:
-                        'https://github.com/platformer-com/platformer-docs',
+                        'https://github.com/platformercloud/platformer-docs/tree/master/',
                 },
                 theme: {
                     customCss: require.resolve('./src/css/custom.scss'),

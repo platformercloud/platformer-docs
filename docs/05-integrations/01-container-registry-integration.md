@@ -19,7 +19,7 @@ Once a Container Registry is connected to your Platformer Project, you can use i
 -   Harbour
 -   Custom registries (any JSON-based configs)
 
-![](../../../static/img/docs/supported-registries.png)
+![](/img/docs/supported-registries.png)
 
 
 ## Integrating a Container Registry to your Project
@@ -28,4 +28,4 @@ To integrate a new container registry to the Platformer Console, navigate to **C
 
 > The required credentials or service account permissions will vary from provider to provider. Please refer to your registry providers documentation for the required permissions.
 
-![](../../../static/img/docs/integrations-1.png)
+![](/img/docs/integrations-1.png)

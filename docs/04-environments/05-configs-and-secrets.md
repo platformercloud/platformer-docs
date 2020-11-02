@@ -28,7 +28,7 @@ Any changes made to the configurations will be versioned and synchronized across
 
 Configurations and Secrets created through the Console will automatically be versioned. You can easily rollback or compare older versions in-browser through the Console. (Comparisons are only available for Configurations and not Secrets).
 
-![](../../../static/img/docs/env-config-1.png)
+![](/img/docs/env-config-1.png)
 
 ---
 

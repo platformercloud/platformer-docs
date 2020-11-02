@@ -24,7 +24,7 @@ The Platformer Console supports two types of payments:
 Select **Invoice** billing if you are trialing the Platformer Console.
 :::
 
-![](../../../static/img/docs/billing-1.png)
+![](/img/docs/billing-1.png)
 
 ## Support Plans
 
