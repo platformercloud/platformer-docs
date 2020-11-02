@@ -2,6 +2,7 @@
 id: 02-cluster-requirements
 title: Kubernetes Cluster requirements
 sidebar_label: Cluster requirements
+slug: cluster-requirements
 ---
 
 **Any Kubernetes Cluster** can be connected to the Platformer Console provided that it meets that following requirements.

@@ -26,7 +26,7 @@ module.exports = {
                 //     position: 'left',
                 // },
                 {
-                    to: 'docs/',
+                    to: '/',
                     activeBasePath: '/',
                     label: 'Documentation',
                     position: 'left',
@@ -49,7 +49,7 @@ module.exports = {
             {
                 docs: {
                     routeBasePath: '/', // docs-only mode
-                    homePageId: 'getting-started/01-introduction',
+                    homePageId: '01-introduction/01-introduction-platformer-console',
                     sidebarPath: require.resolve('./sidebars.js'),
                     editUrl:
                         'https://github.com/platformer-com/platformer-docs',

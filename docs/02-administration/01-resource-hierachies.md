@@ -2,6 +2,7 @@
 id: 01-resource-hierachies
 title: Resource Hierachies
 sidebar_label: Resource Hierachies
+slug: resource-hierachies
 ---
 
 ## Introduction to the Platformer Console Resource Hierachy
