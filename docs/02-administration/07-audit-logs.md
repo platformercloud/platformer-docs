@@ -28,4 +28,4 @@ The Platformer Console records all transactions and activities at all levels in 
 
 ### Application-level Audit Logs
 
-- [Read more about Application audit Logs](../06-applications/activity-logs)
+<!-- - [Read more about Application audit Logs](../06-applications/activity-logs) -->

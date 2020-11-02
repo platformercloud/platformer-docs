@@ -1,6 +1,5 @@
 module.exports = {
     docs: {
-        // 'Getting Started': ['getting-started/01-introduction'],
         Introduction: ['01-introduction/01-introduction-platformer-console'],
         'Administration and Access Management': [
             '02-administration/01-resource-hierachies',
@@ -40,8 +39,5 @@ module.exports = {
             '06-applications/08-advanced-yaml',
             '06-applications/09-volumes',
         ],
-        // Tutorials: ['styleguide'],
-        // Guides: ['styleguide', '01-organizations', '02-projects'],
-        // 'API Reference': ['api-reference/cli'],
     },
 };

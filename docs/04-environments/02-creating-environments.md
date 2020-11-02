@@ -7,7 +7,7 @@ slug: creating-environments
 
 ## Prerequisites
 
--   A Kubernetes cluster connected to the Platformer Console. [(See connecting a Kubernetes cluster)](../connecting-clusters)
+-   A Kubernetes cluster connected to the Platformer Console. [(See connecting a Kubernetes cluster)](/03-clusters/connecting-clusters)
 -   One of the required permissions below (Platformer Console IAM).
     -   Organization Admin
     -   Operational Admin (Project-level)
