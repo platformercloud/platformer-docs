@@ -52,6 +52,7 @@ module.exports = {
             '06-applications/volumes',
             '06-applications/pod-events-logs-metrics',
             '06-applications/pod-ssh',
+            '06-applications/activity-logs',
         ],
     },
 };
