@@ -5,7 +5,8 @@ sidebar_label: Health Checks
 slug: healthchecks
 ---
 
-> Kubernetes Health Checks can be used to ensure smooth updates ("Rolling updates") with zero-downtime. Health checks ensure that a new container is healthy and able to handle traffic before the old container is destroyed.
+!!! note
+    Kubernetes Health Checks can be used to ensure smooth updates ("Rolling updates") with zero-downtime. Health checks ensure that a new container is healthy and able to handle traffic before the old container is destroyed.
 
 ## Creating a Health Check
 
@@ -15,7 +16,7 @@ slug: healthchecks
 - If you have multiple containers that require health checks, they must be added individually to each container.
 - Health checks can be edited later at any time.
 
-![](/img/docs/healthchecks-1.png)
+![](/assets/images//docs/healthchecks-1.png)
 
 ## Liveliness Probes *vs.* Readiness Probes
 

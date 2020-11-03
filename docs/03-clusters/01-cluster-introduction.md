@@ -22,11 +22,12 @@ Platformer Console allows you to add an existing Kubernetes cluster from any on-
 
 For a dedicated installation of Platformer Console in a private environment, connected clusters must be able to reach the Platformer Console APIs through the private network.
 
-> **Platformer Console does NOT create or manage the underlying infrastructure** (which includes creating, managing and updating Kubernetes clusters). The Console handles application deployment and management on top of *any* connected Kubernetes Cluster.
->
-> The Console can be run side-by-side with any Kubernetes infrastructure management service (Rancher, Anthos, etc.)
+!!! important
+    **Platformer Console does NOT create or manage the underlying infrastructure** (which includes creating, managing and updating Kubernetes clusters). The Console handles application deployment and management on top of *any* connected Kubernetes Cluster.
+ 
+    The Console can be run side-by-side with any Kubernetes infrastructure management service (Rancher, Anthos, etc.)
 
-![](../../static/img/docs/cluster-connections-overview.png)
+![](/assets/images/docs/cluster-connections-overview.png)
 
 ### In-Cluster Agent
 
@@ -34,4 +35,4 @@ When connecting a Kubernetes cluster to the Platformer Console, an *Agent* pod w
 
 This connection does not require opening any NodePorts or creating Load Balancers in the connected Cluster.
 
-![](../../static/img/docs/agent-overview.png)
+![](/assets/images/docs/agent-overview.png)

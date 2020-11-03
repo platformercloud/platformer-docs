@@ -10,11 +10,10 @@ Kubernetes resources created by the Platformer Console for an Application can be
 
 - Any changes you make the the YAMLs will be versioned and therefore can be rolled back if required.
  
-   ![](/img/docs/advanced-1.png)
+   ![](/assets/images//docs/advanced-1.png)
 
 
-:::note Note 
-**If any changes made to the YAMLs conflict with the settings applied through the Platformer Console, they will be overriden**. 
+!!! important 
+      **If any changes made to the YAMLs conflict with the settings applied through the Platformer Console, they will be overriden**. 
 
-Always change conflicting settings/configurations from the Platformer Console and use the editor for features/settings that are not available from within the Console. 
-:::
+      Always change conflicting settings/configurations from the Platformer Console and use the editor for features/settings that are not available from within the Console. 

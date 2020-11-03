@@ -11,7 +11,7 @@ The Platformer Console records all transactions and activities at all levels in 
 - Environment-level audit logs
 - Application-level audit logs
 
-![](/img/docs/audit-logs-1.png)
+![](/assets/images//docs/audit-logs-1.png)
 
 
 ### Organization-level Audit Logs

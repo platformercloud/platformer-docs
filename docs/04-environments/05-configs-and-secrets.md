@@ -13,10 +13,11 @@ Configurations are of two types and map to the respective Kubernetes resources u
 
 |                    | Kubernetes resource | Viewable | Editable       | Versioned |
 | ------------------ | ------------------- | -------- | -------------  | --------- |
-| **Configurations** | ConfigMaps          | ✔        | ✔             | ✔        |
-| **Secrets**        | Secrets             | ❌       | _Update only_  | ✔        |
+| **Configurations** | ConfigMaps          | :material-check: | :material-check: | :material-check: |
+| **Secrets**        | Secrets             | :material-close:      | _Update only_  | :material-check: |
 
-> All configurations and secrets in the Platformer Console SaaS are **encrypted and stored using a managed Hashicorp Vault**. You can optionally use your own Vault service with a dedicated installation of the Platformer Console.
+!!! important
+    All configurations and secrets in the Platformer Console SaaS are **encrypted and stored using a managed Hashicorp Vault**. You can optionally use your own Vault service with a dedicated installation of the Platformer Console.
 
 ### Re-using configurations
 
@@ -28,7 +29,7 @@ Any changes made to the configurations will be versioned and synchronized across
 
 Configurations and Secrets created through the Console will automatically be versioned. You can easily rollback or compare older versions in-browser through the Console. (Comparisons are only available for Configurations and not Secrets).
 
-![](/img/docs/env-config-1.png)
+![](/assets/images//docs/env-config-1.png)
 
 ---
 

@@ -11,6 +11,7 @@ If you haven't used an existing Image Collection for your Application Containers
 
 - The **Webhook Builder** for the Application can be found in **Application Overview** > **Webhooks** tab.
 
-![](/img/docs/apps-webhook-builder.png)
+![](/assets/images//docs/apps-webhook-builder.png)
 
-> More details about the Webhook Builder can be found [here](/05-integrations/image-collections#webhooks).
+!!! note    
+    More details about the Webhook Builder can be found [here](/05-integrations/image-collections#webhooks).
