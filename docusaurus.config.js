@@ -7,9 +7,10 @@ module.exports = {
     organizationName: 'platformer-com',
     projectName: 'platformer-docs',
     themeConfig: {
-        defaultMode: 'light',
         colorMode: {
+            defaultMode: 'light',
             disableSwitch: true,
+            respectPrefersColorScheme: false,
         },
         image: 'opengraph/platformer-documentation.jpg',
         navbar: {
@@ -48,7 +49,6 @@ module.exports = {
             {
                 docs: {
                     routeBasePath: '/', // docs-only mode
-                    // homePageId: '01-introduction/01-introduction-platformer-console',
                     sidebarPath: require.resolve('./sidebars.js'),
                     editUrl:
                         'https://github.com/platformercloud/platformer-docs/tree/master/',

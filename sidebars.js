@@ -15,6 +15,12 @@ module.exports = {
             '03-clusters/02-cluster-requirements',
             '03-clusters/03-connecting-clusters',
             '03-clusters/04-troubleshooting',
+            {
+                'Setting up Cluster services': [
+                    '03-clusters/requirements-setup/ingress-controller',
+                    '03-clusters/requirements-setup/cert-manager',
+                ],
+            },
         ],
         'Managing Environments': [
             '04-environments/01-env-introduction',
@@ -29,15 +35,23 @@ module.exports = {
             '05-integrations/02-image-collections',
         ],
         'Deploying and managing Applications and Workloads': [
-            '06-applications/01-applications-overview',
-            '06-applications/02-creating-applications',
-            '06-applications/03-webhooks',
-            '06-applications/04-configs-and-secrets',
-            '06-applications/05-scaling',
-            '06-applications/06-healthchecks',
-            '06-applications/07-ingress',
-            '06-applications/08-advanced-yaml',
-            '06-applications/09-volumes',
+            '06-applications/applications-overview',
+            {
+                'Creating Applications': [
+                    '06-applications/creating-applications/deployments',
+                ],
+            },
+            '06-applications/containers',
+            '06-applications/webhooks',
+            '06-applications/configs-and-secrets',
+            '06-applications/scaling',
+            '06-applications/healthchecks',
+            '06-applications/ingress',
+            '06-applications/advanced-yaml',
+            '06-applications/promoting-applications',
+            '06-applications/volumes',
+            '06-applications/pod-events-logs-metrics',
+            '06-applications/pod-ssh',
         ],
     },
 };
