@@ -4,8 +4,8 @@ title: Configuring Namespaces in Environments
 sidebar_label: Configuring Namespaces in Environments
 slug: environment-namespaces
 ---
-
-> This feature requires an understanding of [Kubernetes Namespaces](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/) and building deployment architectures that can utilize the isolation provided by namespaces. This is an advanced customization feature that may not be required in most cases.
+!!! note
+    This feature requires an understanding of [Kubernetes Namespaces](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/) and building deployment architectures that can utilize the isolation provided by namespaces. This is an advanced customization feature that may not be required in most cases.
 
 ## Understanding the relationship between Environments and Namespaces.
 
@@ -30,4 +30,5 @@ Platformer Console provides you with flexible tooling to configure any (or a com
 3. Click **Create**
 4. The new namespace will be associated under this Environment and you can specify which namespace your want your application(s) deployed in when you create a new Application.
 
-> When a new namespace is created in an Environment, it will be created in all Clusters associated to that environment. [Read more on Multi-cluster environments](./introduction#associating-environments-with-different-clusters-multi-cluster-environments).
+!!! info
+    When a new namespace is created in an Environment, it will be created in all Clusters associated to that environment. [Read more on Multi-cluster environments](./introduction#associating-environments-with-different-clusters-multi-cluster-environments).

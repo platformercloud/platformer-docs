@@ -11,15 +11,16 @@ An **Environment** in the Platformer Console is an isolated development and depl
 
 You can create any number of Environments and configure them as required. Platformer provides a mechanism to create multiple Environments in the same Kubernetes Cluster or spread them across multiple Clusters. 
 
-![](/img/docs/env-1.png)
+![](/assets/images//docs/env-1.png)
 
 ### Your CI/CD Pipeline
 
 The Platformer Console sits as the Continuous Delivery/Deployment mechanism in your CI/CD Pipeline and manages application deployment to different 'environments' and makes it easy to 'promote' applications across these environments.
 
-![](/img/docs/env-2.png)
+![](/assets/images//docs/env-2.png)
 
-> Platformer Console integrates easily with **any** existing CI pipeline (be it Jenkins, Github actions, Cloud Build, CircleCI, etc.). The console takes up after the Container images are built and stored in a Container registry in your CI pipeline and manages the Continuous Deployment of your applications to your Kubernetes environments.
+!!! note ""
+    Platformer Console integrates easily with **any** existing CI pipeline (be it Jenkins, Github actions, Cloud Build, CircleCI, etc.). The console takes up after the Container images are built and stored in a Container registry in your CI pipeline and manages the Continuous Deployment of your applications to your Kubernetes environments.
 
 ### Deploying to Environments
 
@@ -36,7 +37,7 @@ You can easily create 'Multi-Cluster' deployments that are synchronized between 
 
 Through the Platformer Console you deploy your application to an Environment, and Platformer takes care of deploying your applications to all associated Clusters in that Environment making highly resilient solutions and multi-cloud/multi-cluster deployments a breeze to set up and manage.
 
-![](/img/docs/env-3.png)
+![](/assets/images//docs/env-3.png)
 
 ### Centralized management of Configurations and Secrets
 
@@ -49,4 +50,4 @@ All config and secret files and values are
 
 The Console automatically applies the required configurations and secrets into your applications when deploying to different environments.
 
-![](/img/docs/env-4.png)
+![](/assets/images//docs/env-4.png)

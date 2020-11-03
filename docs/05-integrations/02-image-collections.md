@@ -9,13 +9,14 @@ slug: image-collections
 
 Image Collections are a concept within the Platformer Console to manage, list and re-use **all container images** deployed in Environments under a given Project.
 
-![](/img/docs/image-collections-1.png)
+![](/assets/images//docs/image-collections-1.png)
 
-> It is not required to set up an Image Collection before deploying a new Application. You will be prompted to either create a new Image Collection or re-use an existing one when you set up your Applications.
+!!! note
+    It is not required to set up an Image Collection before deploying a new Application. You will be prompted to either create a new Image Collection or re-use an existing one when you set up your Applications.
 
 Deployed images from a particular Container Registry and Image Collection can be found under **Workloads - Image Collections** > (Select Image Collection) > **Images** Tab.
 
-![](/img/docs/image-collections-2.png)
+![](/assets/images//docs/image-collections-2.png)
 
 ## Webhooks
 
@@ -28,9 +29,10 @@ Image Collections allow you to integrate any existing CI or Build pipeline with 
 
 The Console offers a **Webhook Builder** to easily create the webhooks to update an Image Collection from your CI system. The webhook is a simple HTTP POST or GET request to the Platformer APIs that should be called after your container is built and deployed.
 
-> The Webhook Builder is also available once your create an Application. (Application > Webhooks Tab)
+!!! note
+    The Webhook Builder is also available once your create an Application. (Application > Webhooks Tab)
 
-![](/img/docs/webhook-builder.png)
+![](/assets/images//docs/webhook-builder.png)
 
 -   **Channel** - Useful if you have multiple different CI pipelines building images for the same application. (You would create multiple channels in that scenario). Use `default` or the name of the CI pipeline; it's purely for your tracking benefit.
 

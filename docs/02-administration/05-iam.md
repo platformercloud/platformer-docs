@@ -1,6 +1,6 @@
 ---
 id: 05-iam
-title: Platformer IAM - Managing users, roles and permissions
+title: IAM - Managing users, roles and permissions
 sidebar_label: Users, roles and permissions
 slug: iam
 ---
@@ -25,19 +25,20 @@ Platformer IAM provides the necessary tooling to manage all authentication, auth
 
 ### To add a user to a Project
 
-> The user must first be added to the parent Organization of the Project.
+!!! info ""
+    The user must first be added to the parent Organization of the Project.
 
 1. **Admin Panel** > **Project Settings** > **Members** > Click **+ CREATE** and select a User from the list.
 
 2. Assigned Project-level permissions to the User.
 
-:::note Organization and Project level permissions
-Organization and Project level permissions are different. 
+!!! info "Organization and Project level permissions" 
+    Organization and Project level permissions are different. 
 
-Project-level permissions are much more granular and provide fine-grained access control to Project-level resources such as Environments, Clusters and Applications.
+    Project-level permissions are much more granular and provide fine-grained access control to Project-level resources such as Environments, Clusters and Applications.
 
-Project-level permissions will always override Organization-level permissions. i.e. An `Organization Admin` will not necessarily have `Operator Admin (Project admin)` permissions by default. 
-:::
+    Project-level permissions will always override Organization-level permissions. i.e. An `Organization Admin` will not necessarily have `Operator Admin (Project admin)` permissions by default. 
+ 
 
 ---
 

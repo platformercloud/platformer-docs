@@ -20,17 +20,18 @@ The Platformer Console supports two types of payments:
 
 1. Update your card/invoicing details in the dialog and proceed to the next step.
 
-:::note Trials
-Select **Invoice** billing if you are trialing the Platformer Console.
-:::
+!!! info "Enterprise Accounts" 
+    Select **Invoice** billing if you are an enterprise account. The billing account will be approved by a verification process from the Platformer accounts team.
+ 
 
-![](/img/docs/billing-1.png)
+![](/assets/images//docs/billing-1.png)
 
 ## Support Plans
 
 You will be prompted to purchase any Platformer Support plans (available in 'Support Blocks') in the next step.
 
-> You can purchase support plans later at any time.
+!!! info ""
+    You can purchase support plans later at any time.
 
 4. Click **CONTINUE**
 

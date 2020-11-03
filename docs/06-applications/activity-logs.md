@@ -7,4 +7,4 @@ slug: activity-logs
 
 All changes made to an Application is logged and available in the **Application Overview** > **History** tab.
 
-![](/img/docs/app-activity-logs-1.png)
+![](/assets/images//docs/app-activity-logs-1.png)

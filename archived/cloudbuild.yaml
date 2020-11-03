@@ -1,0 +1,18 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'gcr.io/$PROJECT_ID/$REPO_NAME:$REVISION_ID', '-f', './Dockerfile', '.']
+
+- name: 'gcr.io/cloud-builders/curl'
+  entrypoint: 'curl'
+  args: [
+    '--header', 'x-organization-id: de1ff33e-ae24-4890-9203-0c1b40f36be9',
+    '--header', 'x-project-id: ecd3b141-e623-4c94-b1f5-61fbb7e92540', 
+    '-d',
+    '{"container_id":"ab63c86d-58f2-4bf4-bdb1-5a354574a5c0","image_name_with_tag":"gcr.io/$PROJECT_ID/$REPO_NAME:$REVISION_ID"}', 
+    '-X',
+    'POST', 
+    'https://beta.api.platformer.com/rudder/webhook/v1/container?token=${_TOKEN}'
+  ]
+images: [
+    'gcr.io/$PROJECT_ID/$REPO_NAME:$REVISION_ID'
+  ]
