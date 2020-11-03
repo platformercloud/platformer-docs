@@ -26,7 +26,7 @@ For a dedicated installation of Platformer Console in a private environment, con
 >
 > The Console can be run side-by-side with any Kubernetes infrastructure management service (Rancher, Anthos, etc.)
 
-![](../../static/img/docs/cluster-connections-overview.png)
+![](/img/docs/cluster-connections-overview.png)
 
 ### In-Cluster Agent
 
@@ -34,4 +34,4 @@ When connecting a Kubernetes cluster to the Platformer Console, an *Agent* pod w
 
 This connection does not require opening any NodePorts or creating Load Balancers in the connected Cluster.
 
-![](../../static/img/docs/agent-overview.png)
+![](/img/docs/agent-overview.png)
