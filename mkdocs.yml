@@ -26,7 +26,6 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
-copyright: '&copy; Platformer Cloud Pty Ltd'
 
 plugins:
   - search

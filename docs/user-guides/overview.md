@@ -60,11 +60,10 @@ As explained in the [resource hierarchies](../../welcome/01-resource-hierachies)
 
 7. Live Support via Intercom
 
-    For organizations that have enabled premium support at Platformer Console will have access to the Live Chat Intercom, where a support agent will be connected under a minute. [Read more on support here](../welcome/support).
+    For organizations that have enabled premium support at Platformer Console will have access to the Live Chat Intercom, where a support agent will be connected under a minute. [Read more on support here](../../welcome/support).
 
     <figure>
     <img src="/assets/images/docs/intercom-2.png" width="600" />
-    <figcaption>Intercom Messenger</figcaption>
     </figure>
 
 
