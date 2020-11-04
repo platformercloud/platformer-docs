@@ -1,4 +1,4 @@
-FROM squidfunk/mkdocs-material as build-stage
+FROM gcr.io/platformer-public/mkdocs-material as build-stage
 
 LABEL app platformer-docs
 LABEL maintainers binura.g@platformer.com
