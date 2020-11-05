@@ -1,6 +1,6 @@
 ---
 id: 02-organizations
-title: Setting up an Organization
+title: Organization
 sidebar_label: Setting up an Organization
 slug: organizations
 ---
@@ -9,12 +9,12 @@ slug: organizations
 When you sign-up for the very first time, the Platformer Console *automatically* creates a **Personal Workspace** for you.
 
 !!! important 
-    Your **Personal Workspace** is ideal for your own projects that are NOT shared across a team or an organization. If you wish to continue with the Personal Workspace you can skip this section and [start configuring a Project](./projects) in your personal workspace.
+    Your **Personal Workspace** is ideal for your own projects that are NOT shared across a team or an organization. If you wish to continue with the Personal Workspace you can skip this section and [start configuring a Project](/user-guides/administration/04-projects) in your personal workspace.
 
 ## Before you begin
 
 Before you begin, it's important to understand the resource hierarchies and relationships with key resources involved in deploying applications on Kubernets using the Platformer Console.
-[Read about these concepts](../../welcome/01-resource-hierachies)
+[Read about these concepts here.](/user-guides/administration/01-resource-hierachies)
 
 
 ## Creating your Organization
@@ -84,3 +84,8 @@ If you are an Enterprise Account, and you have created an Organization with a Cu
   
     !!! important 
         It takes about 2-5 minutes for the DNS record to propergate.
+
+## Next Steps
+
+- [Create a Billing Account](/user-guides/administration/03-billing-accounts)
+- [Add Users to Organization](/user-guides/administration/05-iam)

@@ -1,11 +1,11 @@
 ---
 id: 01-resource-hierachies
-title: Concepts
-sidebar_label: Resource Hierachies
+title: Resource Heirachy
+sidebar_label: Resource Hierachy
 slug: resource-hierachies
 ---
 
-## Introduction to the Platformer Console Resource Hierachy
+
 
 The following diagram depicts the high-level resources and their relationships in the Platformer Console.
 <br/>

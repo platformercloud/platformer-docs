@@ -1,15 +1,18 @@
 ---
 id: 03-billing-accounts
-title: Setting up a Billing Account
+title: Billing Accounts
 sidebar_label: Setting up a Billing Account
 slug: billing-accounts
 ---
 
-## Billing Overview
+## Overview
 
 In order to continue working with an Organization, you need to have *atleast one billing account* associated with it. A Billing account must be asscoiated with a Platformer Project. 
-[Read more about billing resource heirachy here.](../../welcome/01-resource-hierachies)
+[Read more about billing resource heirachy here.](/user-guides/administration/01-resource-hierachies)
 
+![](/assets/images//docs/billing.svg)
+
+A Billing Account is responsible for Organization Support Plans. [Read more on Platformer Support Plans here](/welcome/support).
 
 The Platformer Console supports two types of payments:
 
@@ -38,8 +41,8 @@ Platformer Supports the following Credit Cards
 
 ## Before you begin
 
-Before you begin, you need to have an organization created on Platformer Console.
-[Read more about creating and organization here](./02-organizations).
+- Ensure that you have an [Organization](/user-guides/administration/02-organizations) set up (unless you're using your Personal Workspace)
+- Read about the [Resource Hierachies in the Platformer Console](/user-guides/administration/01-resource-hierachies)
 
 ## Creating a Billing Account
 
@@ -79,10 +82,14 @@ Before you begin, you need to have an organization created on Platformer Console
 
     You will be prompted to purchase Platformer Support plans (available in 'Support Blocks') in the next step. 
 
-    [Read more on Platformer Support Plans here](../../welcome/support).
+    [Read more on Platformer Support Plans](/welcome/support).
 
     !!! hint
         You can purchase support plans later at any time.
 
 
 
+## Next Steps
+
+- [Create a Project](/user-guides/administration/03-billing-accounts)
+- [Add a Support Plan](/welcome/support)
