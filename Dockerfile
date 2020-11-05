@@ -10,8 +10,6 @@ RUN mkdocs build
 
 FROM nginx:1.13.12-alpine
 
-COPY nginx/default.conf /etc/nginx/conf.d/
-
 RUN rm -rf /usr/share/nginx/html/*
 
 COPY --from=build-stage /docs/site/ /usr/share/nginx/html
