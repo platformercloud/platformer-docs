@@ -14,7 +14,7 @@ Platformer Agent opens a secure tunnel with the Platformer Servers, Allowing Pla
 
 ## Prerequisites
 
--   A Kubernetes cluster that meets the [**minimum requirements**](./cluster-requirements).
+-   A Kubernetes cluster that meets the [**minimum requirements**](/user-guides/clusters/02-cluster-requirements).
 -   Administrative **`Kubectl`** access to the Cluster.
 -   Administrative privileges on the Platformer Console.
     -   Organization Admin _or_
@@ -59,6 +59,6 @@ Platformer Agent opens a secure tunnel with the Platformer Servers, Allowing Pla
 
 ### Troubleshooting
 
-Please refer to the [**Troubleshooting Guide**](./troubleshooting).
+Please refer to the [**Troubleshooting Guide**](/user-guides/clusters/04-troubleshooting/).
 
 </Tabs>
