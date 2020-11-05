@@ -1,0 +1,8 @@
+      
+nav:
+      - ...
+      - "Administration and Access Management": administration
+      - "Kubernetes Clusters":  clusters
+      - "Managing Environments": environments
+      - "Integrations":  integrations
+      - "Managing Applications and Workloads": applications

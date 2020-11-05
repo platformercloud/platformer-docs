@@ -26,8 +26,10 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
-copyright: '&copy; Platformer Cloud Pty Ltd'
 
+plugins:
+  - search
+  - awesome-pages
 
 markdown_extensions:
   - smarty
@@ -43,51 +45,3 @@ markdown_extensions:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
 
-nav:
-  - "Welcome":
-      - "Getting Started": index.md
-      - "Concepts": 00-introduction/01-resource-hierachies.md
-  - User guide:
-      - "Administration and Access Management":
-         - "Setting up an Organization": 02-administration/02-organizations.md
-         - "Setting up a Billing Account": 02-administration/03-billing-accounts.md
-         - "Setting up a Project": 02-administration/04-projects.md
-         - "Users, Roles and Permissions": 02-administration/05-iam.md
-         - "Service Accounts": 02-administration/06-service-accounts.md
-         - "Audit Logs": 02-administration/07-audit-logs.md
-      - "Kubernetes Clusters":
-         - "Introduction": 03-clusters/01-cluster-introduction.md
-         - "Cluster Requirements": 03-clusters/02-cluster-requirements.md
-         - "Connecting a Kubernetes Cluster": 03-clusters/03-connecting-clusters.md
-         - "Troubleshooting Cluster Connections": 03-clusters/04-troubleshooting.md
-         - "Setting up Cluster Services": 
-            - "Setting up an Ingress Controller": 03-clusters/requirements-setup/ingress-controller.md
-            - "Setting up Cert Manager": 03-clusters/requirements-setup/cert-manager.md
-      - "Managing Environments":
-         - "Introduction": 04-environments/01-env-introduction.md
-         - "Creating Environments": 04-environments/02-creating-environments.md
-         - "Multi Cluster Environments": 04-environments/03-multi-cluster-environments.md
-         - "Configuring Namespaces in Environments": 04-environments/04-environment-namespaces.md
-         - "Configmaps and Secrets": 04-environments/05-configs-and-secrets.md
-         - "Activity Logs": 04-environments/06-activity-logs.md
-      - "Integrations":
-         - "Container Registries": 05-integrations/01-container-registry-integration.md
-         - "Image Collections": 05-integrations/02-image-collections.md
-      - "Managing Applications and Workloads":
-         - "Introduction": 06-applications/01-overview.md
-         - "Creating Applications": 
-               - "Deployments": 06-applications/creating-applications/deployments.md
-         - "Configuring Containers": 06-applications/02-containers.md
-         - "Release Webhooks (CI Integration)": 06-applications/webhooks.md
-         - "Configmaps and Secrets": 06-applications/configs-and-secrets.md
-         - "Scaling": 06-applications/scaling.md
-         - "Health Checks": 06-applications/healthchecks.md
-         - "Ingress and DNS": 06-applications/ingress.md
-         - "Advanced Configuration": 06-applications/advanced-yaml.md
-         - "Promoting Applications between Environments": 06-applications/promoting-applications.md
-         - "Volumes": 06-applications/volumes.md
-         - "Events, Logs and Metrics": 06-applications/pod-events-logs-metrics.md
-         - "SSH into Pods": 06-applications/pod-ssh.md
-         - "Activity Logs": 06-applications/activity-logs.md
-  - Tutorials:
-      - Introduction: "tutorials/index.md"
