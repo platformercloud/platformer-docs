@@ -1,5 +1,5 @@
 nav:
-  - "Welcome": welcome
+  - ...
   - User Guide: user-guides
   - Tutorials: "tutorials"
 

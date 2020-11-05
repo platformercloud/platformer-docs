@@ -45,3 +45,10 @@ markdown_extensions:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
 
+nav:
+  - "Welcome":
+       - Welcome: "index.md"
+       - How it works: "how-it-works.md"
+       - CLI: "cli.md"
+       - Troubleshooting: "troubleshooting.md"
+  - ...
