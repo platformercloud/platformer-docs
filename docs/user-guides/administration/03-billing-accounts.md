@@ -12,7 +12,7 @@ In order to continue working with an Organization, you need to have *atleast one
 
 ![](/assets/images//docs/billing.svg)
 
-A Billing Account is responsible for Organization Support Plans. [Read more on Platformer Support Plans here](/welcome/support).
+A Billing Account is responsible for Organization Support Plans. [Read more on Platformer Support Plans here](/support).
 
 The Platformer Console supports two types of payments:
 
@@ -82,7 +82,7 @@ Platformer Supports the following Credit Cards
 
     You will be prompted to purchase Platformer Support plans (available in 'Support Blocks') in the next step. 
 
-    [Read more on Platformer Support Plans](/welcome/support).
+    [Read more on Platformer Support Plans](/support).
 
     !!! hint
         You can purchase support plans later at any time.
@@ -92,4 +92,4 @@ Platformer Supports the following Credit Cards
 ## Next Steps
 
 - [Create a Project](/user-guides/administration/03-billing-accounts)
-- [Add a Support Plan](/welcome/support)
+- [Add a Support Plan](/support)
