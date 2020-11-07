@@ -5,11 +5,16 @@ sidebar_label: Connecting a Kubernetes Cluster
 slug: connecting-clusters
 ---
 
+Platformer Console can connect with any cluster that has egress (Outbound) access to port 443 on Platformer Servers. You can read more about this under Network section in [Cluster Requirements](/user-guides/clusters/02-cluster-requirements/#2-network-requirements).
+
+Platformer Agent opens a secure tunnel with the Platformer Servers, Allowing Platformer Console to push configurations to your Kubernetes clusters.
+
+[Read more on how Platformer Agent runs on your Cluster](/user-guides/clusters/01-cluster-introduction/#in-cluster-agent)
  
 
 ## Prerequisites
 
--   A Kubernetes cluster that meets the [**minimum requirements**](./cluster-requirements).
+-   A Kubernetes cluster that meets the [**minimum requirements**](/user-guides/clusters/02-cluster-requirements).
 -   Administrative **`Kubectl`** access to the Cluster.
 -   Administrative privileges on the Platformer Console.
     -   Organization Admin _or_
@@ -54,6 +59,6 @@ slug: connecting-clusters
 
 ### Troubleshooting
 
-Please refer to the [**Troubleshooting Guide**](./troubleshooting).
+Please refer to the [**Troubleshooting Guide**](/user-guides/clusters/04-troubleshooting/).
 
 </Tabs>
