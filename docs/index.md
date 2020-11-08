@@ -15,7 +15,7 @@ It is a one stop solution for managing your workloads, CI/CD in a multi cluster 
 
 1. Sign up on <a href="https://beta.console.platformer.com/" target="_"> Platformer Console :material-open-in-new:</a>
 
-2. [Have a look at the Console UI Overview](/user-guides/overview)
+2. [Have a look at the Console UI Overview](/user-guides/)
 
 2. Switch to your Default Workspace.
 

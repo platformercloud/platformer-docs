@@ -1,0 +1,3 @@
+nav:
+      - "Introduction": index.md
+      - "Connect Image Registries": connect-image-registries

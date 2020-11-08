@@ -16,7 +16,7 @@ Once a Container Registry is connected to your Platformer Project, you can use i
 -   AWS Elastic Container Registry (ECR)
 -   Azure Container Registry (ACR)
 -   Github
--   Harbour
+-   Harbor
 -   Custom registries (any JSON-based configs)
 
 ![](/assets/images//docs/supported-registries.png)
@@ -29,4 +29,11 @@ To integrate a new container registry to the Platformer Console, navigate to **C
 !!! important
     The required credentials or service account permissions will vary from provider to provider. Please refer to your registry providers documentation for the required permissions.
 
-![](/assets/images//docs/integrations-1.png)
+- [Connect AWS ECR](/tutorials/connect-image-registries/aws-ecr/)
+- [Connect Azure ACR](/tutorials/connect-image-registries/azure-acr/)
+- [Connect Google GCR](/tutorials/connect-image-registries/google-gcr/)
+- [Connect Github Registry](/tutorials/connect-image-registries/github/)
+- [Connect Harbor Registry](/tutorials/connect-image-registries/harbor/)
+
+## Next Steps
+

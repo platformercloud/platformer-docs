@@ -1,8 +1,7 @@
 ---
-title: Overview
+title: Introduction
 ---
 
-# Platformer Console
 
 Platformer Console is a hassle-free enterprise-grade application platform to simplify and streamline your Kubernetes experience on Cloud, Hybrid, On-Premise or Edge Infrastructure.
 
