@@ -19,7 +19,7 @@ The Platformer Console sits as the Continuous Delivery/Deployment mechanism in y
 
 ![](/assets/images//docs/env-2.png)
 
-!!! note ""
+!!! hint
     Platformer Console integrates easily with **any** existing CI pipeline (be it Jenkins, Github actions, Cloud Build, CircleCI, etc.). The console takes up after the Container images are built and stored in a Container registry in your CI pipeline and manages the Continuous Deployment of your applications to your Kubernetes environments.
 
 ### Deploying to Environments
