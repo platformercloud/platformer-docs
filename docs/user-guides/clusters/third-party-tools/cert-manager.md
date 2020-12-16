@@ -17,6 +17,8 @@ The Platformer Console uses [Jetstack Cert-Manager](https://cert-manager.io/docs
 1. [Access Kubectl Shell from the Console](/user-guides/clusters/04-kubectl-shell/)
 2. Run the following commands
 
+    ```helm repo add jetstack https://charts.jetstack.io```
+
     ```
     kubectl create namespace cert-manager
     ```
