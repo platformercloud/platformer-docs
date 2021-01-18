@@ -15,9 +15,6 @@ title: GitHub  Registry
 - Select the `full:repo` control of private repositories to get repo status
 - Select the `workflow` scope to update github action workflows
 - Select the `read:user` scope to read all user data 
-- Select the `read:packages` scope to download container images and read their metadata.
-- Select the `write:packages` scope to download and upload container images and read and write their metadata.
-- Select the `delete:packages` scope to delete container images.
  
 ## Connecting to Platformer
 
