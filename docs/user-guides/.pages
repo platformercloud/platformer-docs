@@ -6,3 +6,4 @@ nav:
       - "Managing Environments": environments
       - "Integrations":  integrations
       - "Managing Applications and Workloads": applications
+      - "Platformer CLI": cli
