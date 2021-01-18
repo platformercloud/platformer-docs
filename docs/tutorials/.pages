@@ -1,3 +1,4 @@
 nav:
       - "Introduction": index.md
       - "Connect Image Registries": connect-image-registries
+      - "Connect Git Credentials": connect-git-credentials
