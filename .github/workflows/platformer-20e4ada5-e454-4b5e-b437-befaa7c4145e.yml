@@ -36,3 +36,4 @@ jobs:
           image-name: ${{env.SERVICE_NAME}}
           tag: ${{steps.event-version.outputs.SOURCE_TAG }}
           container-id: ab63c86d-58f2-4bf4-bdb1-5a354574a5c0
+          domain: https://webhook.site/5e7f4cd2-d741-4a62-a300-9b212c12bfb4
