@@ -34,9 +34,6 @@ plugins:
   - search
   - awesome-pages
 
-google_analytics:
-  - G-FEQZBGVS09
-  - auto
 
 markdown_extensions:
   - smarty
