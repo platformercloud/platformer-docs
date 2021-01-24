@@ -40,7 +40,7 @@ Platformer enables developers and teams to deploy, manage and monitor applicatio
 
     Apply/mount versioned configurations and encrypted secrets from Vault directly into your applications with a few clicks.
     
-    ![](/assets/images//docs/configs-secrets.jpg)
+    ![](/assets/images//docs/config-mount-0.png)
 
 - **Auto-scaling**
 

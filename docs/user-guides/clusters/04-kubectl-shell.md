@@ -18,6 +18,7 @@ Platformer Shell has the following tools bundled within it.
 - Kubens
 - Jq
 - Curl
+- Linkerd
 
 !!! hint
     Because Platformer Kubernetes Shell always runs inside the server, you can use Platformer Kubernetes shell to debug in-cluster network issues and dns issues.

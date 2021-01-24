@@ -57,8 +57,8 @@ Platformer Agent opens a secure tunnel with the Platformer Servers, Allowing Pla
     !!! note ""
         Platformer CLI will be available soon
 
-### Troubleshooting
+## Troubleshooting
 
-Please refer to the [**Troubleshooting Guide**](/user-guides/clusters/04-troubleshooting/).
+Please refer to the [**Troubleshooting Guide**](/troubleshooting/organization-verification/).
 
-</Tabs>
+ 

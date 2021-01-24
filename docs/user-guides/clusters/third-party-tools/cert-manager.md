@@ -12,7 +12,7 @@ The Platformer Console uses [Jetstack Cert-Manager](https://cert-manager.io/docs
 - Ensure that you have a cluster connected at Platformer Console. [Read more on Cluster Connection here](/user-guides/clusters/03-connecting-clusters/)
 
 
-### Using Platformer Shell
+## Using Platformer Shell
 
 1. [Access Kubectl Shell from the Console](/user-guides/clusters/04-kubectl-shell/)
 2. Run the following commands
