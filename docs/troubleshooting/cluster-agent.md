@@ -1,6 +1,6 @@
 ---
 id: 04-troubleshooting
-title: Troubleshooting cluster connections
+title: Cluster connections
 sidebar_label: Troubleshooting cluster connections
 slug: troubleshooting
 ---
