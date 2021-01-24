@@ -36,8 +36,8 @@ Platformer Supports the following Credit Cards
 !!! info
         A Billing Account will take 1-2 busuiness days to get verified and enabled.
 
-!!! hint
-        Invoice option is only available for organizations with a verified domain.
+!!! attention
+        Invoice option is only available for organizations with a verified domain. [Learn more about verified domains here](http://localhost:8000/user-guides/administration/02-organizations/#domain-verification)
 
 ## Before you begin
 
@@ -84,7 +84,7 @@ Platformer Supports the following Credit Cards
 
     [Read more on Platformer Support Plans](/support).
 
-    !!! hint
+    !!! attention
         You can purchase support plans later at any time.
 
 
