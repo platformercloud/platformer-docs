@@ -23,17 +23,19 @@ You can easily navigate through the below UI and edit, delete and view resources
 
 You can easily edit and apply a YAML on the go as shown in the below example.
 
-    ![](/assets/images//docs/cluster-resource-1.png) 
+![](/assets/images//docs/cluster-resource-1.png) 
 
-    !!! caution
-        If the particular resource is created by Platformer Console itself, it is not recommended to edit the YAML here. Rather, please click the ***Go To Application*** button and edit the YAML there inside the application.
+!!! caution
+    If the particular resource is created by Platformer Console itself, it is not recommended to edit the YAML here. Rather, please click the ***Go To Application*** button and edit the YAML there inside the application.
 
 
 
 
 ## Known Issues
 
-Platformer Console uses `kubectl api-versions` endpoint to retrieve the available resources in the Cluster to generate the resource bar dynamically. We have identified on certain clusters, (specially AWS managed EKS clusters) doesn't support the above endpoint. We will be releasing a patch for this soon in a future release.
+Platformer Console uses `kubectl api-versions` endpoint to retrieve the available resources in the Cluster to generate the resource bar dynamically. We have identified on certain clusters, (specially AWS managed EKS clusters) doesn't support the above endpoint. 
+
+We will be releasing a patch for this soon in a future release.
 ## Alternatives
 
 - [Kubernetes Dashboard](https://github.com/kubernetes/dashboard) as explained earlier is the popular alternative out there at the moment.

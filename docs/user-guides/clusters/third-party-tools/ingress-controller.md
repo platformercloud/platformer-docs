@@ -20,7 +20,7 @@ The Platformer Console currently supports both [Nginx](https://kubernetes.github
 
 - Ensure that you have a cluster connected at Platformer Console. [Read more on Cluster Connection here](/user-guides/clusters/03-connecting-clusters/)
 
-### Installing Nginx Ingress Controller
+## Installing Nginx Ingress Controller
 
 ### Using Platformer Shell
 
@@ -48,6 +48,6 @@ The Platformer Console currently supports both [Nginx](https://kubernetes.github
 
 Please follow the steps for your specific Kubernetes infrastructure provider: [Nginx Ingress Installation Guide](https://kubernetes.github.io/ingress-nginx/deploy/)
 
-### Installing Traefik Ingress Controller
+## Installing Traefik Ingress Controller
 
 Please follow the steps for your specific Kubernetes infrastructure provider: [Treafik Installation Guide](https://doc.traefik.io/traefik/v1.7/user-guide/kubernetes/)

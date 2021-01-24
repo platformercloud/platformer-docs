@@ -75,7 +75,7 @@ The following YAML outlines a common azure-pipelines configuration. If you alrea
 > -   `PL_ORGANIZATION`: Platformer Organization ID (copied from the webhooks tab)
 > -   `PL_PROJECT`: Platformer Project ID (copied from the webhooks tab)
 
-```YAML linenums="1" hl_lines="42-65"
+```yaml  hl_lines="42-65"
 
 trigger:
 - main

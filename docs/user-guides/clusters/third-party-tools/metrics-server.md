@@ -29,4 +29,16 @@ Platformer Console support Kubernetes native metrics to display current Pod Util
 
 ## Manual Installation
 
+Please run the following command in your cluster. The following configuration is tested with AWS EKS.
+
+You can actually run the following command by launching Platformer Kubernetes Shell
+
+```
+kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/download/v0.3.7/components.yaml
+```
+
+### Install the latest version
+
 Please follow the steps for your specific Kubernetes infrastructure provider: [Metrics Server Installation Guide](https://github.com/kubernetes-sigs/metrics-server)
+
+
