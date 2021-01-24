@@ -1,5 +1,1 @@
----
-title: How it Works
----
-
-This document explains  How Platformer Works
+This document contains information about how Platformer works

@@ -8,15 +8,18 @@ theme:
     - tabs
     - instant
     - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.instant
+    - navigation.sections
   include_sidebar: true
   name: material
   custom_dir: overrides
   favicon: assets/images/favicon.ico
-  logo: assets/images/logo-circle.png
+  logo: assets/images/platformer-logo.png
   palette:
     - scheme: default
-      primary: blue
-      accent: indigo
+      primary: indigo
+      accent: blue grey
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
@@ -30,6 +33,10 @@ theme:
 plugins:
   - search
   - awesome-pages
+
+google_analytics:
+  - G-FEQZBGVS09
+  - auto
 
 markdown_extensions:
   - smarty
@@ -48,6 +55,7 @@ markdown_extensions:
 nav:
   - "Welcome":
        - Welcome: "index.md"
+       - Getting started: "getting-started.md"
        - How it works: "how-it-works.md"
        - CLI: "cli.md"
        - Troubleshooting: "troubleshooting.md"

@@ -1,10 +1,10 @@
 ---
-title: Integrating Azure Devops with Platformer Console
+title: Azure Devops
 ---
 
 This guide will show you how to integrate Azure Devops as a CI pipeline with Platformer Console and deploy your containerized applications to an AKS (Azure Kubernetes) Cluster.
 
-### Prerequisites
+## Before you begin
 
 -   You have set up an Organization and a Project on the Platformer Console.
 -   You have access to Azure Devops and a Kubernetes Cluster (with administrative `kubectl` access to it).
@@ -36,46 +36,17 @@ Select the **Deployment** type, and give your application a name.
 
 ![App Setup](/assets/images/tutorials/azure-devops/create_app_2.png)
 
-Once the application set up is completed, we need to configure the Environment. Click on 'Get started'.
+Select the **Environment** and a namespace. 
 
-![App Setup](/assets/images/tutorials/azure-devops/create_app_3.png)
+You don't have to fill the default image section as we will be using azure deveops to build and deploy new images later in this tutorial.
 
-![App Setup](/assets/images/tutorials/azure-devops/create_app_4.png){: align=left width=400 }
+Add Ports if your container exposes any.
 
--   Select a `namespace` in the Environment
--   And in the **Deployment Settings** select **Auto Deploy**.
-
-Follow through the rest of the set up with the pre-filled values. You can always change them later.
+![App Setup](/assets/images/tutorials/azure-devops/create_app_8.png)
 
 ---
 
-### Adding a container
 
-The next step is to add a `Container` to your application _(An Application on Platformer Console can have multiple containers)._
-
-We will now create an [**Image Collection**](/user-guides/integrations/01-container-registry-integration/) _ahead of time (before setting up an Azure Container Registry)_ so that we can easily generate some of the Azure Devops Pipeline configurations in the next step. However, you can always create an Image Collection seperately and re-use it across different Applications.
-
-Click _Get started_ under the _Create a Container_ card.
-
--   Select `Primary Container`
--   Click on **Create new Collection** under the `Select Image Collection` options.
-
-#### Creating a new Image Collection
-
--   Give your Image Collection a name - You can name it after your application to keep things simple; _or name it however you want_
--   Set registry visibility to `Private` (we'll be using a private ACR (Azure Container Registry), but you can choose differently).
--   Select `Setup Later` under the **Registry Credentials**
-
-![App Setup](/assets/images/tutorials/azure-devops/create_app_5.png)
-
--   Keep the `Select an image` field blank for now (we'll come back to this when we set up the image registry on Azure).
--   Click Continue and adjust the `Resource Utilization` as you find fitting.
-    ![Resource Utilization Setup](/assets/images/tutorials/azure-devops/create_app_6.png)
-
--   In the `Networking` section, add the ports that your application exposes (if any). You can always change this later.
-    ![Network Setup](/assets/images/tutorials/azure-devops/create_app_7.png)
-
--   Follow through the rest of the Container setup wizard - you can default to the pre-filled options for now.
 
 ## Step 3: Azure DevOps Pipelines
 
@@ -105,6 +76,7 @@ The following YAML outlines a common azure-pipelines configuration. If you alrea
 > -   `PL_PROJECT`: Platformer Project ID (copied from the webhooks tab)
 
 ```YAML linenums="1" hl_lines="42-65"
+
 trigger:
 - main
 - master
