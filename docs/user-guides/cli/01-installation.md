@@ -17,3 +17,9 @@ title: Installation
 -   Check the [Releases section](https://github.com/platformercloud/cli/releases) and download the relavent binary based on your Operating System.
 
 -   Once installed, the Platformer CLI will be accessible with the `platformer` command.
+
+## Install on Ubuntu/Debian
+
+- Download __latest__ version `wget  https://github.com/platformercloud/cli/releases/download/<version-number>/platformer_<version-number>_amd64.deb`
+
+- Install downloaded *.deb file `sudo dpkg -i platformer_<version-number>_amd64.deb `
