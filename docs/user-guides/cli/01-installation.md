@@ -20,6 +20,8 @@ title: Installation
 
 ## Install on Ubuntu/Debian
 
-- Download __latest__ version `wget  https://github.com/platformercloud/cli/releases/download/<version-number>/platformer_<version-number>_amd64.deb`
+- Export __latest__ version `export VERSION=0.1.X`
 
-- Install downloaded *.deb file `sudo dpkg -i platformer_<version-number>_amd64.deb `
+- Download *.deb `wget  https://github.com/platformercloud/cli/releases/download/v$VERSION/platformer_$VERSION-1_amd64.deb`
+
+- Install downloaded *.deb file `sudo dpkg -i platformer_$VERSION-1_amd64.deb `
