@@ -1,5 +1,5 @@
 ---
-title: How it Works
+title: Overview
 ---
 
 # Platformer Console
