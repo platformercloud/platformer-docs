@@ -17,23 +17,11 @@ theme:
   favicon: assets/images/favicon.ico
   logo: assets/images/platformer-logo.png
   palette:
-    - scheme: default
-      primary: indigo
-      accent: blue grey
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode
-    - scheme: slate
-      primary: blue grey
-      accent: blue grey
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
+    - scheme: platformer
 
 plugins:
   - search
   - awesome-pages
-
 
 markdown_extensions:
   - smarty
@@ -51,9 +39,11 @@ markdown_extensions:
 
 nav:
   - "Welcome":
-       - Overview: "index.md"
-       - Getting started: "getting-started.md"
-       - How it works: "how-it-works.md"
-       - CLI: "cli.md"
-       - Support: "support.md"
+      - Overview: "index.md"
+      - Getting started: "getting-started.md"
+      - CLI: "cli.md"
+      - Support: "support.md"
   - ...
+
+extra_css:
+  - assets/stylesheets/overrides.css
