@@ -3,4 +3,5 @@ nav:
       - "Connect Image Registries": connect-image-registries
       - "Connect Git Credentials": connect-git-credentials
       - "Connect External CI Tools": cicd
+      - "RBAC": rbac
 
