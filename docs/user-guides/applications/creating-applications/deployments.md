@@ -6,8 +6,8 @@ sidebar_label: Deployments
 
 ## Prerequisites
 
-1. A [connected Kubernetes Cluster](/03-clusters/connecting-clusters).
-1. A configured [Environment](/04-environments/introduction).
+1. A [connected Kubernetes Cluster](/user-guides/clusters/03-connecting-clusters).
+1. A configured [Environment](/user-guides/environments/01-env-introduction).
 
 ## Creating an Application (Kubernetes Deployment)
 
