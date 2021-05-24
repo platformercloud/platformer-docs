@@ -1,5 +1,5 @@
 ---
-title: How it Works
+title: Overview
 ---
 
 # Platformer Console
@@ -15,7 +15,7 @@ The Cloud Native Application Platform built for Kubernetes
 - To accelerate the development cycle by enabling developers and operations to work together in a whole new way.
 - To allow you to develop apps for vendor-neutral Kubernetes in a cloud agnostic manner.
 
-![](/assets/images//docs/markitecture.png)
+![](/assets/images//docs/markitecture.jpg)
 
 
 ## Features

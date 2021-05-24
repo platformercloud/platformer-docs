@@ -13,4 +13,4 @@ Platformer Cloud Documentation
 
 ## References
 
-[Icons](https://materialdesignicons.com/)
+[Icon Usage Reference](https://materialdesignicons.com/)

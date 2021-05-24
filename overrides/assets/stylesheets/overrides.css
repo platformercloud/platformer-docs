@@ -1,0 +1,14 @@
+[data-md-color-scheme='platformer'] {
+    --md-primary-fg-color: #0277bd;
+    --md-primary-fg-color--light: #bbdefb;
+    --md-primary-fg-color--dark: #004c8c;
+}
+
+.md-tabs {
+    background-color: #004c8c;
+    background-image: url('/assets/overlay/mesh-bg-dark.svg');
+}
+
+.md-content {
+    margin-bottom: 4rem;
+}

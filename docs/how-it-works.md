@@ -1,1 +1,0 @@
-This document contains information about how Platformer works
