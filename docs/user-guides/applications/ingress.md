@@ -7,7 +7,7 @@ slug: ingress
 
 ## Prerequisites
 
--   Ensure that you have the [necessary services (Ingress Controller and Cert-Manager) installed in your clusters](/03-clusters/cluster-requirements#3-third-party-services).
+-   Ensure that you have the [necessary services (Ingress Controller and Cert-Manager) installed in your clusters](/user-guides/clusters/third-party-tools/cluster-requirements#3-third-party-services).
 -   Create the necessary DNS records (A Records or CNAME records depending on the type of Load Balancer created by the Ingress Controller) to point to the Load Balancer's IP or CNAME.
 
 !!! hint
@@ -30,11 +30,10 @@ slug: ingress
 4. Click **CONTINUE** to open the **Advanced Configurations** section. Here you can configure the details for your Ingress Controller. Select `letsecrypt-prod` (might have a different name if you named it differently) from Cluster Issuer dropdown.
 
     !!! note
-        If you can't see any Cluster Issuers, ensure that you have [set it up correctly](/03-clusters/requirements-setup/cert-manager#installation).
+        If you can't see any Cluster Issuers, ensure that you have [set it up correctly](/user-guides/clusters/third-party-tools/cert-manager).
 
     !!! info "Backend Protocol"
-        The Backend-protocol refers to the protocol used by the Ingress Controller to route traffic to the Application's service **internally**. This does **not** have anything to do with external TLS (https) on the public DNS. [Read more](https://kubernetes.github.io/ingress-nginx/user-guide/nginx-configuration/annotations/#backend-protocol)
-        :::
+        The Backend-protocol refers to the protocol used by the Ingress Controller to route traffic to the Application's service **internally**. This does **not** have anything to do with external TLS (https) on the public DNS. [Read more](https://kubernetes.github.io/ingress-nginx/user-guide/nginx-configuration/annotations/#backend-protocol).
 
     ![](/assets/images//docs/ingress-3.png)
 
